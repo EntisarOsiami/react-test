@@ -3,8 +3,7 @@ import HomePage from '../pages/HomePage';
 import Layout from '../layout/Layout';
 import Login from '../components/Login';
 import Register from '../components/Register';
-import DetailsPage from '../pages/detailsPage';
-
+import DetailsPage from '../pages/DetailsPage'
 function AppRoutes() {
   const AppRoutes = createBrowserRouter([
     {

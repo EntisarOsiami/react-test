@@ -4,9 +4,9 @@ import Footer from '../components/Footer'
 
 function Layout() {
   return (
-    <div className='min-h-screen flex flex-col justify-between'>
+    <div className='min-h-screen flex flex-col justify-center'>
         <Navbar />
-        <main className='flex-1'>
+        <main className='flex-1 justify-center'>
             <Outlet />
         </main>
         <Footer />

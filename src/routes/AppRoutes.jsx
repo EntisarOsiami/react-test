@@ -4,7 +4,6 @@ import Layout from '../layout/Layout';
 import Login from '../components/Login';
 import Register from '../components/Register';
 import DetailsPage from '../pages/detailsPage';
-import CartPage from '../pages/CartPage';
 
 function AppRoutes() {
   const AppRoutes = createBrowserRouter([
@@ -22,7 +21,6 @@ function AppRoutes() {
         },
         { path: '/register', element: <Register /> },
         { path: 'DetailsPage/:id', element: <DetailsPage /> },
-        {path:'/cart/:id', element: <CartPage/>}
       ],
     },
   ]);
